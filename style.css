@@ -28,6 +28,10 @@
     width: 80%;
 }
 
+.carousel-margin{
+    margin-top: 64px;
+}
+
 body {
     background-color: #212529;
 }
