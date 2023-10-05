@@ -10,7 +10,7 @@ enlargeButtons.forEach((button) => {
     });
 });
 
-window.onscroll = function() {
+window.onscroll = function () {
     myFunction();
 };
 
@@ -23,13 +23,13 @@ function myFunction() {
 
 AOS.init();
 
-const carouselInner = document.querySelector('.carousel-inner');
+const carouselContainer = document.getElementById('carouselMain');
 const parallaxImages = document.querySelectorAll('.parallax-image');
 
-carouselInner.addEventListener('mousemove', (e) => {
+carouselContainer.addEventListener('mousemove', (e) => {
     const mouseX = e.clientX;
     const mouseY = e.clientY;
-    const carouselRect = carouselInner.getBoundingClientRect();
+    const carouselRect = carouselContainer.getBoundingClientRect();
 
     parallaxImages.forEach((image) => {
         const imageRect = image.getBoundingClientRect();
@@ -42,32 +42,9 @@ carouselInner.addEventListener('mousemove', (e) => {
     });
 });
 
-carouselInner.addEventListener('mouseleave', () => {
+carouselContainer.addEventListener('mouseleave', () => {
     resetParallax();
 });
-
-const carouselControls = document.querySelectorAll('.carousel-control');
-carouselControls.forEach((control) => {
-    control.addEventListener('mouseenter', () => {
-        disableParallax();
-    });
-
-    control.addEventListener('mouseleave', () => {
-        enableParallax();
-    });
-});
-
-function disableParallax() {
-    parallaxImages.forEach((image) => {
-        image.style.transition = 'none';
-    });
-}
-
-function enableParallax() {
-    parallaxImages.forEach((image) => {
-        image.style.transition = 'transform 0.2s ease-out';
-    });
-}
 
 function resetParallax() {
     parallaxImages.forEach((image) => {
