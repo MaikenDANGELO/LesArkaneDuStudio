@@ -78,7 +78,7 @@
     </div>
 
     <div class="container-fluid" data-bs-theme="dark">
-        <div class="card" style="width: 18rem;" data-aos="zoom-in-right" data-aos="flip-up">
+        <div class="card zoom-card" style="width: 18rem;" data-aos="zoom-in-right" data-aos="flip-up">
             <img src="images/card/card_moon.jpg" class="card-img-top" alt="moon_arkane">
             <div class="card-body">
                 <h5 class="card-title">L'histoire d'Arkane</h5>
@@ -96,7 +96,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-    // When the user scrolls the page, execute myFunction 
     window.onscroll = function() {myFunction()};
     
     function myFunction() {
@@ -120,10 +119,10 @@
                 const imageRect = image.getBoundingClientRect();
                 const imageCenterX = imageRect.left + imageRect.width / 2;
                 const imageCenterY = imageRect.top + imageRect.height / 2;
-                const offsetX = (mouseX - imageCenterX) / (carouselRect.width / 2) * 10; // Ajustez cette valeur pour l'effet horizontal
-                const offsetY = (mouseY - imageCenterY) / (carouselRect.height / 2) * 10; // Ajustez cette valeur pour l'effet vertical
+                const offsetX = (mouseX - imageCenterX) / (carouselRect.width / 2) * 10;
+                const offsetY = (mouseY - imageCenterY) / (carouselRect.height / 2) * 10;
 
-                image.style.transform = `translate(${offsetX}px, ${offsetY}px)`; // Appliquez le mouvement horizontal et vertical
+                image.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
             });
         });
 
@@ -131,7 +130,6 @@
             resetParallax();
         });
 
-        // Ajoutez un événement de survol aux boutons du carousel
         const carouselControls = document.querySelectorAll('.carousel-control');
         carouselControls.forEach((control) => {
             control.addEventListener('mouseenter', () => {
@@ -161,5 +159,17 @@
             });
         }
 
+        </script>
+        
+        <script>
+        const card = document.querySelector('.zoom-card');
+
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'scale(1.05)';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'scale(1)';
+        });
         </script>
 </body>

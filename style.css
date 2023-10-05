@@ -40,6 +40,9 @@ body {
     transition: transform 0.2s ease-out;
 }
 
-.carousel-inner:hover .parallax-image {
-    transform: translateX(-10px); /* Déplacez l'image vers la gauche lorsque survolée */
+.zoom-card {
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    margin: 0 auto; /* Pour centrer la carte horizontalement */
 }
+
