@@ -9,4 +9,5 @@ Pour nous contacter, adressez-vous à notre référente à cette adresse e-mail 
 ## Que faisons-nous ?
 
 Nous avons pour projet de créer un site web présentant économiquement l'entreprise française Arkane Studios, studio renommé de jeux vidéo.  
-En plus de cela nous rédigerons un rapport, qui sera disponible sur le site web pour téléchargement.
+En plus de cela nous rédigerons un rapport, qui sera disponible sur le site web pour téléchargement.  
+Vous pouvez accéder à notre site web grâce au lien suivant: https://maikendangelo.github.io/LesArkaneDuStudio/
