@@ -43,6 +43,6 @@ body {
 .zoom-card {
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
-    margin: 0 auto; /* Pour centrer la carte horizontalement */
+    margin: 0 auto;
 }
 
