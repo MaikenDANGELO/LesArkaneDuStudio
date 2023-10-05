@@ -35,3 +35,11 @@
 body {
     background-color: #212529;
 }
+
+.parallax-image {
+    transition: transform 0.2s ease-out;
+}
+
+.carousel-inner:hover .parallax-image {
+    transform: translateX(-10px); /* Déplacez l'image vers la gauche lorsque survolée */
+}
