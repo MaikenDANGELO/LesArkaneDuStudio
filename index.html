@@ -52,9 +52,9 @@
     
     <div id="carouselMain" class="carousel slide container-margin" data-bs-theme="light" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active btn-enlarge" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" class="btn-enlarge" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" class="btn-enlarge" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active"  data-bs-interval="5000">
@@ -67,14 +67,15 @@
                 <img src="images/carousel/carousel_3.jpg" class="d-block w-100 parallax-image" alt="Arkane Studio Art">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+        <button class="carousel-control-prev btn-enlarge" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+        </button>
+        
+        <button class="carousel-control-next btn-enlarge" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button>
+        </button>        
     </div>
 
     <div class="container-fluid mb-4" data-bs-theme="dark">
@@ -113,6 +114,21 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        const enlargeButtons = document.querySelectorAll('.btn-enlargee');
+
+        enlargeButtons.forEach((button) => {
+            button.addEventListener('mouseenter', () => {
+                button.style.transform = 'scale(1.1)';
+            });
+
+            button.addEventListener('mouseleave', () => {
+                button.style.transform = 'scale(1)';
+            });
+        });
+
+    </script>
 
     <script>
     window.onscroll = function() {myFunction()};
