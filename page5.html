@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css" type="text/css" media="screen"> -->
     <link rel="icon" type="image/x-icon" href="images/arkane/favicon.ico">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.js"></script>
     <title>Arkane Studio</title>
 </head>
 <body data-bs-theme="dark">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <div class="header">
+            <link rel="stylesheet" href="style.css">
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+        <div class="container-fluid navbar-top">
             <a class="navbar-brand" href="index.html">
             <img src="images/arkane/arkane-logo-no-bg.png" alt="arkaneLogo" height="24" class="d-inline-block align-text-top">
             </a>
@@ -40,10 +45,6 @@
                         <a class="nav-link" href="credits.html">Credits</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning" data-bs-theme="dark" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -69,5 +70,16 @@
             D'ANGELO Maïken
         </div>
     </footer>
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
 </body>
 </html>
