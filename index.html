@@ -19,7 +19,7 @@
         </div>
         <div class="container-fluid navbar-top">
             <a class="navbar-brand" href="index.html">
-            <img src="images/arkane/arkane-logo-no-bg.png" alt="arkaneLogo" height="24" class="d-inline-block align-text-top">
+                <img src="images/arkane/arkane-logo-no-bg.png" alt="arkaneLogo" height="24" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Pages
+                            Pages
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="page1.html">Page1</a></li>
@@ -83,7 +83,7 @@
             <img src="images/card/card_moon.jpg" class="card-img-top" alt="moon_arkane">
             <div class="card-body">
                 <h5 class="card-title">L'histoire d'Arkane</h5>
-                <p class="card-text">Comment un studio français concurence les plus grands</p>
+                <p class="card-text">Comment un studio français concurrence les plus grands</p>
                 <a href="#" class="btn btn-primary">En savoir plus</a>
             </div>
         </div>
@@ -115,96 +115,7 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script>
-        const enlargeButtons = document.querySelectorAll('.btn-enlargee');
-
-        enlargeButtons.forEach((button) => {
-            button.addEventListener('mouseenter', () => {
-                button.style.transform = 'scale(1.1)';
-            });
-
-            button.addEventListener('mouseleave', () => {
-                button.style.transform = 'scale(1)';
-            });
-        });
-
-    </script>
-
-    <script>
-    window.onscroll = function() {myFunction()};
+    <script src="script.js"></script>
     
-    function myFunction() {
-        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        var scrolled = (winScroll / height) * 100;
-        document.getElementById("myBar").style.width = scrolled + "%";
-    }
-    </script>
-    <script>AOS.init();</script>
-    <script>
-        const carouselInner = document.querySelector('.carousel-inner');
-        const parallaxImages = document.querySelectorAll('.parallax-image');
-
-        carouselInner.addEventListener('mousemove', (e) => {
-            const mouseX = e.clientX;
-            const mouseY = e.clientY;
-            const carouselRect = carouselInner.getBoundingClientRect();
-
-            parallaxImages.forEach((image) => {
-                const imageRect = image.getBoundingClientRect();
-                const imageCenterX = imageRect.left + imageRect.width / 2;
-                const imageCenterY = imageRect.top + imageRect.height / 2;
-                const offsetX = (mouseX - imageCenterX) / (carouselRect.width / 2) * 10;
-                const offsetY = (mouseY - imageCenterY) / (carouselRect.height / 2) * 10;
-
-                image.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
-            });
-        });
-
-        carouselInner.addEventListener('mouseleave', () => {
-            resetParallax();
-        });
-
-        const carouselControls = document.querySelectorAll('.carousel-control');
-        carouselControls.forEach((control) => {
-            control.addEventListener('mouseenter', () => {
-                disableParallax();
-            });
-
-            control.addEventListener('mouseleave', () => {
-                enableParallax();
-            });
-        });
-
-        function disableParallax() {
-            parallaxImages.forEach((image) => {
-                image.style.transition = 'none';
-            });
-        }
-
-        function enableParallax() {
-            parallaxImages.forEach((image) => {
-                image.style.transition = 'transform 0.2s ease-out';
-            });
-        }
-
-        function resetParallax() {
-            parallaxImages.forEach((image) => {
-                image.style.transform = 'translate(0)';
-            });
-        }
-
-        </script>
-        
-        <script>
-        const card = document.querySelector('.zoom-card');
-
-        card.addEventListener('mouseenter', () => {
-            card.style.transform = 'scale(1.05)';
-        });
-
-        card.addEventListener('mouseleave', () => {
-            card.style.transform = 'scale(1)';
-        });
-        </script>
 </body>
+</html>
