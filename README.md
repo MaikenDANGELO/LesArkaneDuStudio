@@ -2,7 +2,7 @@
 
 ## Qui sommes nous ?
 
-Nous sommes un équipe de 5 étudiants en BUT Informatique à l'IUT Nord Franche Comté à Belfort.  
+Nous sommes une équipe de 5 étudiants en BUT Informatique à l'IUT Nord Franche Comté de Belfort.  
 Notre équipe est composée de : Mehdi BEN SMAIL, Valentin BELIARD, Quentin BELHADJ, Elena BERNARD et notre référente Maïken D'ANGELO.  
 
 Pour nous contacter, adressez-vous à notre référente à cette adresse e-mail : maiken.d_angelo@edu.univ-fcomte.fr  
