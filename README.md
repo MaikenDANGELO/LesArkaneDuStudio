@@ -24,4 +24,3 @@ Vous pouvez accéder à notre site web grâce au lien suivant: https://maikendan
 
 Nous tenons tout particulièrement à remercier nos proches et amis qui nous ont aidés et soutenus tout au long de ce projet.  
 Un grand merci à Alexia D., Maude L. et Jean-Baptiste F.
-test
