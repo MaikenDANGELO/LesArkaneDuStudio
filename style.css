@@ -68,11 +68,12 @@ body {
 
 h1 {
     text-align: center;
-    color: orangered;
+    color: #FF6000;
+    font-family: "fonts/Roboto/Roboto-Regular.ttf";
 }
 
 h2 {
-    text-decoration: ;
+    text-decoration: none;
 }
 .main-text {
     margin-left: 10px;
