@@ -51,11 +51,6 @@
     margin-top: 64px;
 }
 
-body {
-    background-color: #212529;
-    overflow-x: hidden;
-}
-
 .parallax-image {
     transition: transform 0.2s ease-out;
 }
@@ -102,12 +97,12 @@ body {
 h1 {
     text-align: center;
     color: #FF6000;
-    font-family: "fonts/Roboto/Roboto-Regular.ttf";
 }
 
 h2 {
     text-decoration: none;
 }
+
 .main-text {
     margin-left: 10px;
 }
@@ -119,11 +114,9 @@ h2 {
 
 .main  {
     margin-top: 80px;
-}}
-=======
+}
 
 /* Charge Roboto-Medium en premier, puis monospace si Roboto ne marche pas */
 h1, h2, h3, h4, h5, h6 {
     font-family: Roboto_Medium, monospace;
 }
->>>>>>> Stashed changes
