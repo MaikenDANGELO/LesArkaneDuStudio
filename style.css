@@ -69,11 +69,18 @@ body {
 h1 {
     text-align: center;
     color: orangered;
+    text-decoration: underline;
 }
 
-h2 {
-    text-decoration: ;
-}
 .main-text {
     margin-left: 10px;
+}
+
+.container-margin {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.main  {
+    margin-top: 80px;
 }
