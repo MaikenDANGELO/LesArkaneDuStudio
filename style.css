@@ -1,3 +1,22 @@
+/* Differnetes versions de la police Roboto */
+@font-face {
+    font-family: Roboto_Bold;
+    src: url("fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: Roboto_Italic;
+    src: url("fonts/Roboto/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: Roboto_Medium;
+    src: url("fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: Roboto_Regular;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+
 .header {
     position: fixed;
     top: 0%;
@@ -66,6 +85,20 @@ body {
     transform: scale(1.1);
 }
 
+.main-text {
+    margin-left: 10px;
+}
+
+/* Charge Calibri en premier, puis Tahoma si Calibri ne marche pas, puis une police sans serif si aucune autre police ne marche */
+*{
+    font-family: Calibri, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #212529;
+    overflow-x: hidden;
+}
+
 h1 {
     text-align: center;
     color: #FF6000;
@@ -86,4 +119,11 @@ h2 {
 
 .main  {
     margin-top: 80px;
+}}
+=======
+
+/* Charge Roboto-Medium en premier, puis monospace si Roboto ne marche pas */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto_Medium, monospace;
 }
+>>>>>>> Stashed changes
