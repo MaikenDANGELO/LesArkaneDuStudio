@@ -6,7 +6,7 @@
     background-color: #f1f1f1;
 }
 
-.navbar-top{
+.navbar-top {
     margin-top: 8px;
 }
 
@@ -15,20 +15,20 @@
     height: 8px;
     background: #ccc;
 }
-  
+
 .progress-bar {
     height: 8px;
     background: orangered;
     width: 0%;
 }
-  
+
 .content {
     padding: 100px 0;
     margin: 50px auto 0 auto;
     width: 80%;
 }
 
-.container-margin{
+.container-margin {
     margin-top: 64px;
 }
 
@@ -48,17 +48,18 @@ body {
 }
 
 .text-left {
-    color : white;
+    color: white;
     font-size: 20px;
 }
 
 .text-left {
-    color : white;
+    color: white;
     font-size: 20px;
 }
 
 .btn-enlarge {
-    transition: transform 0.3s ease-in-out; /* Ajoute une transition pour l'effet de zoom */
+    transition: transform 0.3s ease-in-out;
+    /* Ajoute une transition pour l'effet de zoom */
 }
 
 .btn-enlarge:hover {
