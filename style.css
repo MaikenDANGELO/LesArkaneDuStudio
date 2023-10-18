@@ -68,8 +68,12 @@ body {
 
 h1 {
     text-align: center;
+    color: orangered;
 }
 
+h2 {
+    text-decoration: ;
+}
 .main-text {
     margin-left: 10px;
 }
