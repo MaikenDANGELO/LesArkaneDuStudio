@@ -95,7 +95,10 @@ body {
 
 h1 {
   text-align: center;
-  color: #ff6000;
+  color: orangered;
+  /* add decorations for a title */
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 h2 {
