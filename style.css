@@ -154,3 +154,13 @@ a{
   opacity: 0.8;
   text-align: center;
 }
+
+.btnScrollToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  border: none;
+  z-index: 99;
+  display: none;
+}
