@@ -148,7 +148,16 @@ a{
   background-color: #ff6000;
 }
 
+<<<<<<< Updated upstream
 .contour {
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
   }
+=======
+.legende {
+  font-size: 12px;
+  color: #ccc;
+  opacity: 0.8;
+  text-align: center;
+}
+>>>>>>> Stashed changes
