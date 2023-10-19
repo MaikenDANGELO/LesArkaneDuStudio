@@ -72,8 +72,8 @@ Capture d'écran: ![](images/W3C/W3C_pointEconomique.png)
 
 Auteurs : Tout le monde 
 
-Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran: ![]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fcredits.html)  
+Capture d'écran: ![](images/W3C/W3C_credits.png)  
 
 ## Remerciements
 
