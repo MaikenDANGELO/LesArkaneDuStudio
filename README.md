@@ -37,22 +37,22 @@ Capture d'écran: ![]()
 
 Auteur : Quentin Belhadj  
 
-Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran: ![]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpresentation.html)  
+Capture d'écran: ![](images/W3C/W3C_presentation.png)  
 
 ## Page Activités
 
 Auteur : Valentin Beliard  
 
-Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran: ![]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fservices.html)  
+Capture d'écran: ![](images/W3C/W3C_services.png)  
 
 ## Page Organisation
 
 Auteur : Mehdi Ben Smail  
 
-Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran: ![]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Forganisation.html)  
+Capture d'écran: ![](images/W3C/W3C_organisation.png)  
 
 ## Page Environnement de travail
 
