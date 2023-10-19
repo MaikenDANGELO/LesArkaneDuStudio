@@ -9,5 +9,5 @@ btnScrollToTop.addEventListener("click", e => {
 });
 
 window.addEventListener('scroll', e => {
-  btnScrollToTop.style.display = window.scrollY > 20 ? 'block' : 'none';
+  btnScrollToTop.style.display = window.scrollY > 250 ? 'block' : 'none';
 });
