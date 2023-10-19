@@ -167,3 +167,11 @@ a{
 .card:hover {
   transform: scale(1.05);
 }
+
+.BoutonDL {
+  transition: transform 0.2s ease-in-out;
+}
+
+.BoutonDL:hover {
+  transform: scale(1.2);
+}
