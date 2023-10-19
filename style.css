@@ -147,3 +147,8 @@ a{
 .fixed-button:hover {
   background-color: #ff6000;
 }
+
+.contour {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
