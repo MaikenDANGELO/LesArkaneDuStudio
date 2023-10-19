@@ -65,7 +65,7 @@ Capture d'écran [ici]()
 
 Auteur : Elena Bernard  
 
-Vérification W3C : [Lien vers la vérification]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpointeconomique.html)  
 Capture d'écran [ici]()  
 
 ## Crédits
