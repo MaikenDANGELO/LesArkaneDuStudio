@@ -87,6 +87,7 @@
 /* Charge Calibri en premier, puis Tahoma si Calibri ne marche pas, puis une police sans serif si aucune autre police ne marche */
 *{
     font-family: Calibri, Tahoma, sans-serif;
+    color:white;
 }
 
 body {
