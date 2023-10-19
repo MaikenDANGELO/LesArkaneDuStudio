@@ -49,7 +49,9 @@ carouselContainer.addEventListener('mouseleave', () => {
 
 function resetParallax() {
     parallaxImages.forEach((image) => {
-        image.style.transform = 'translate(0)';
+        if (carouselContainer.contains(image)) {
+            image.style.transform = 'translate(0)';
+        }
     });
 }
 
