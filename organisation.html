@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/arkane/favicon.ico">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.js"></script>
+    <link href="script.js" rel="script">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Arkane Studio</title>
 </head>
+
 <body data-bs-theme="dark">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
         <div class="header">
@@ -33,28 +37,39 @@
                             aria-expanded="false">Pages</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="presentation.html">Présentation</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="services.html">Services</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="organisation.html">Organisation</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="environnement.html">Environnement de travail</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="pointeconomique.html">Point économique</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sections</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Sections</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#section-2">Activités et services internes</a></li>
                             <li><a class="dropdown-item" href="#section-3">Zones de travail</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#section-4">Mode de travail</a></li>
                             <li><a class="dropdown-item" href="#section-5">Travail de groupe</a></li>
                             <li><a class="dropdown-item" href="#section-6">Importance des Seniors</a></li>
                             <li><a class="dropdown-item" href="#section-7">Hiérarchie</a></li>
                         </ul>
-                    </li>         
+                    </li>
                 </ul>
                 <a class="nav-link" href="credits.html">Credits</a>
             </div>
@@ -123,14 +138,16 @@
                 </div>
             </div>
         </div>
-        <h3 id="section-3"><br><br>Zones de travail</h3>
+        <h3 id="section-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300"><br><br>Zones de
+            travail</h3>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4" data-aos="fade-right">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.musicgateway.com%2Fwp-content%2Fuploads%2F2021%2F07%2Farkane-1.png&f=1&nofb=1&ipt=7bcbae51c06f2c69aa98fdc0ba19d275158a75c2c1035536745159e5a8270930&ipo=images" alt="Image à gauche" class="img-fluid img1">
+                <div class="col-md-6 mb-4" data-aos="flip-up" data-aos-offset="300">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsupport.musicgateway.com%2Fwp-content%2Fuploads%2F2021%2F07%2Farkane-1.png&f=1&nofb=1&ipt=7bcbae51c06f2c69aa98fdc0ba19d275158a75c2c1035536745159e5a8270930&ipo=images"
+                        alt="Image à gauche" class="img-fluid img1">
                     <p class="legende">GAMEINFORMER</p>
                 </div>
-                <div class="col-md-6 mb-4" data-aos="fade-left">
+                <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-offset="300">
                     <p class="text-left d-md-block main-text">Arkane Studios a décidé en juillet 2006 d’ouvrir un second
                         studio en plus de celui de Lyon à Austin, au Texas, pour
                         étendre leur
@@ -141,54 +158,70 @@
             </div>
         </div>
         <hr>
-        <h2 id="section-4"><br><br>Mode de travail</h2>
-        <h3 id="section-5"><br><br>Travail de groupe</h3>
+        <h2 id="section-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300"><br><br>Mode de
+            travail</h2>
+        <h3 id="section-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300"><br><br>Travail de
+            groupe</h3>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos="fade-left" data-aos-offset="300">
                 <p class="main-text">Le développement de jeux chez Arkane Studios est principalement basé sur le travail
-                    d'équipe. Les jeux modernes sont des projets complexes qui exigent une multitude de compétences et d'expertise. Chaque membre
-                    de l'équipe a un rôle qui contribue à la réalisation du jeu. En conséquence, les développeurs de jeux, les
-                    programmeurs, les artistes, les designers, et d'autres professionnels travaillent en étroite collaboration
+                    d'équipe. Les jeux modernes sont des projets complexes qui exigent une multitude de compétences et
+                    d'expertise. Chaque membre
+                    de l'équipe a un rôle qui contribue à la réalisation du jeu. En conséquence, les développeurs de
+                    jeux, les
+                    programmeurs, les artistes, les designers, et d'autres professionnels travaillent en étroite
+                    collaboration
                     pour créer un jeu cohérent et de haute qualité.</p>
             </div>
-            <div class="col-sm-6">
-                <img src="https://www.springboard.com/blog/wp-content/uploads/2021/09/shutterstock_1535881892-scaled.jpg" alt="teamwork" class="img-fluid">
+            <div class="col-sm-6" data-aos="flip-up" data-aos-offset="300">
+                <img src="https://www.springboard.com/blog/wp-content/uploads/2021/09/shutterstock_1535881892-scaled.jpg"
+                    alt="teamwork" class="img-fluid">
                 <p class="legende">KINDRA COOPER / SPRINGBOARD</p>
             </div>
         </div>
-        <h3 id="section-6"><br><br>Importance des Seniors</h3>
+        <h3 id="section-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300"><br><br>Importance des
+            Seniors</h3>
         <div class="row">
-            <div class="col-md-6 mb-4" data-aos="fade-right">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.simulstat.com%2Fwp-content%2Fuploads%2F2021%2F11%2FSenior-Programmer-3.jpg&f=1&nofb=1&ipt=e4262a059b61d8de21f63bf3489c866aa92514fdba21058150b295524cc381b1&ipo=images" alt="Image à gauche" class="img-fluid img1">
+            <div class="col-md-6 mb-4" data-aos="flip-up" data-aos-offset="300">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.simulstat.com%2Fwp-content%2Fuploads%2F2021%2F11%2FSenior-Programmer-3.jpg&f=1&nofb=1&ipt=e4262a059b61d8de21f63bf3489c866aa92514fdba21058150b295524cc381b1&ipo=images"
+                    alt="Image à gauche" class="img-fluid img1">
                 <p class="legende">SIMULSTAT</p>
             </div>
-            <div class="col-md-6 mb-4" data-aos="fade-left">
-                <p class="main-text">Il est utile de préciser que les seniors chez Arkane Studios (et plus généralement dans le
+            <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-offset="300">
+                <p class="main-text">Il est utile de préciser que les seniors chez Arkane Studios (et plus généralement
+                    dans le
                     monde du
                     développement de jeux vidéo) jouent un rôle crucial en fournissant l'expérience, l'orientation et
-                    l'expertise nécessaires pour créer des jeux exceptionnels. Leurs implications dans les tâches complexes et
-                    leur mentorat des employés plus jeunes souvent sans expérience et en free-lance sont des éléments clés de la
+                    l'expertise nécessaires pour créer des jeux exceptionnels. Leurs implications dans les tâches
+                    complexes et
+                    leur mentorat des employés plus jeunes souvent sans expérience et en free-lance sont des éléments
+                    clés de la
                     réussite de l'entreprise.</p>
             </div>
         </div>
-        <h3 id="section-7"><br><br>Hiérarchie</h3>
+        <h3 id="section-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300"><br><br>Hiérarchie
+        </h3>
         <div class="row">
-            <div class="col-sm-6">
-                <p class="main-text">Après avoir subi deux rachats consécutifs par ZeniMax, la maison-mère de leur éditeur
+            <div class="col-sm-6" data-aos="fade-right" data-aos-offset="300">
+                <p class="main-text">Après avoir subi deux rachats consécutifs par ZeniMax, la maison-mère de leur
+                    éditeur
                     Bethesda puis de
-                    Microsoft, Arkane Studios (dirigé par Dinga Bakaba) sont donc soumis aux décisions de ZeniMax qui sont
+                    Microsoft, Arkane Studios (dirigé par Dinga Bakaba) sont donc soumis aux décisions de ZeniMax qui
+                    sont
                     soumis, eux aussi, aux décisions de Microsoft.</p>
             </div>
-            <div class="col-sm-6">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwindowsinsiders.com%2Fwp-content%2Fuploads%2F2020%2F09%2Fxbox-game-studios-buys-zenimax-media-bethesda.jpg&f=1&nofb=1&ipt=7f6ddab9a403271c7ddbb49bf785d0bf5a2611cc1a542416571befc28b969937&ipo=images" alt="Microsoft" class="img-fluid">
+            <div class="col-sm-6" data-aos="flip-up" data-aos-offset="300">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwindowsinsiders.com%2Fwp-content%2Fuploads%2F2020%2F09%2Fxbox-game-studios-buys-zenimax-media-bethesda.jpg&f=1&nofb=1&ipt=7f6ddab9a403271c7ddbb49bf785d0bf5a2611cc1a542416571befc28b969937&ipo=images"
+                    alt="Microsoft" class="img-fluid">
                 <p class="legende">YURI PETTIGNANO / WINDOWS INSIDERS</p>
             </div>
         </div>
     </div>
-<div class="btnScrollToTop" data-scroll="up" type="button">
-    <img src="images/top/arrow.png" alt="Scroll to top" width="40" height="40"/>
-  </div>
-  
+    <div class="btnScrollToTop" data-scroll="up" type="button" data-aos="fade-up" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <img src="images/top/arrow.png" alt="Scroll to top" width="40" height="40" />
+    </div>
+
     <footer class="bg-dark text-center text-white ">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             BEN SMAIL Mehdi
@@ -199,4 +232,5 @@
     <script src="top.js"></script>
 
 </body>
+
 </html>
