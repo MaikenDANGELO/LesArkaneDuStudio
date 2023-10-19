@@ -145,4 +145,9 @@ a{
   border: none;
   z-index: 99;
   display: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btnScrollToTop:hover {
+  transform: scale(1.3);
 }
