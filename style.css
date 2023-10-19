@@ -125,6 +125,10 @@ h6 {
   font-family: Roboto_Medium, monospace;
 }
 
+a{
+    color:white;
+}
+
 .fixed-button {
   position: fixed;
   bottom: 20px;
