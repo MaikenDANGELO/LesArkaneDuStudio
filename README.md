@@ -61,12 +61,12 @@ Auteur : Maïken D'Angelo
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fenvironnement.html)  
 Capture d'écran [ici](https://github.com/MaikenDANGELO/LesArkaneDuStudio/blob/main/images/W3C/W3C%20environnement.png)  
 
-## Page5
+## Point economique
 
-Auteur : Elena Bernard  
+Autrice : Elena Bernard  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpointeconomique.html)  
-Capture d'écran [ici]()  
+Capture d'écran [ici](images/W3C/W3C_pointEconomique.png)  
 
 ## Crédits
 
