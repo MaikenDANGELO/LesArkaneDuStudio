@@ -149,6 +149,6 @@ a{
 }
 
 .contour {
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
   }
