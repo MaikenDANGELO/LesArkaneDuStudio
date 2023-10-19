@@ -96,8 +96,6 @@ body {
 h1 {
   text-align: center;
   color: orangered;
-  /* add decorations for a title */
-  text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 
