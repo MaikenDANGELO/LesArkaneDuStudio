@@ -45,8 +45,7 @@ Capture d'écran: ![]()
 Auteur : Valentin Beliard  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fservices.html)  
-Capture d'écran: ![](![W3C_services](https://github.com/MaikenDANGELO/LesArkaneDuStudio/assets/146366140/99618499-ac24-4b68-8706-ae24dee38162)
-)  
+Capture d'écran: ![](images/W3C/W3C_services.png)  
 
 ## Page Organisation
 
