@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/arkane/favicon.ico">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.js"></script>
     <title>Arkane Studio</title>
 </head>
@@ -62,120 +63,145 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid container-margin" >
-        <h1>Services de l’entreprise </h1>
+    <div class="container-margin">
         <div class="container-fluid row">
-        
-        <div class="container-fluid col-md-6">
-        <h2>Produits et services</h2>
-        <p class="text-justify p-3" data-bs-theme="dark">
-            Arkane Studio est une entreprise de renom dans l'industrie du jeu vidéo, reconnue pour sa contribution à l'univers vidéoludique.
-            Parmi les nombreuses créations de l'entreprise, on compte des titres ont acquis une popularité significative,
-            tels que Dishonored 1 et 2, accompagnés de leurs packs de contenu additionnel, Prey, ainsi que Deathloop.<br>
-            <br>
-            Grâce à son vaste éventail de compétences, allant de la conception de jeux à la composition de musiques et
-            de bandes sonores, en passant par la conception graphique et bien d'autres domaines, Arkane Studio parvient
-            à offrir aux joueurs du monde entier une variété de divertissements interactifs parfaitement adaptés à leurs
-            goûts et préférences individuels.<br>
-            <br>
-            Cette entreprise de renommée mondiale maintient ainsi une présence solide et constante sur le marché mondial<br>
-            du jeu vidéo, assurant ainsi un succès durable.<br>
-            
-        </p >
-        </div>
-        <!------------------------------------------------------------------------------------------------------------------------>
-        
-        <div class="col-md-6">
-        <div id="carouselJeux" class="carousel slide container-margin " data-bs-theme="light" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselJeux" data-bs-slide-to="0" class="active btn-enlarge"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselJeux" data-bs-slide-to="1" class="btn-enlarge"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselJeux" data-bs-slide-to="2" class="btn-enlarge"
-                    aria-label="Slide 3"></button>
+            <div class="container-fluid container-margin">
+                <h1 data-aos="zoom-in" data-aos-duration="3000">Services de l’entreprise </h1>
+                <div class="container-fluid row">
+
+                    <div class="container-fluid col-md-6">
+                        <h2 data-aos="zoom-in" data-aos-duration="3000">Produits et services</h2>
+                        <p class="text-justify p-3" data-bs-theme="dark" data-aos="fade-right" data-aos-duration="2000">
+                            Arkane Studio est une entreprise de renom dans l'industrie du jeu vidéo, reconnue pour sa
+                            contribution à l'univers vidéoludique.
+                            Parmi les nombreuses créations de l'entreprise, on compte des titres ont acquis une
+                            popularité significative,
+                            tels que Dishonored 1 et 2, accompagnés de leurs packs de contenu additionnel, Prey, ainsi
+                            que Deathloop.<br>
+                            <br>
+                            Grâce à son vaste éventail de compétences, allant de la conception de jeux à la composition
+                            de musiques et
+                            de bandes sonores, en passant par la conception graphique et bien d'autres domaines, Arkane
+                            Studio parvient
+                            à offrir aux joueurs du monde entier une variété de divertissements interactifs parfaitement
+                            adaptés à leurs
+                            goûts et préférences individuels.<br>
+                            <br>
+                            Cette entreprise de renommée mondiale maintient ainsi une présence solide et constante sur
+                            le marché mondial<br>
+                            du jeu vidéo, assurant ainsi un succès durable.<br>
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                        <div id="carouselJeux" class="carousel slide container-margin " data-bs-theme="light"
+                            data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselJeux" data-bs-slide-to="0"
+                                    class="active btn-enlarge" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselJeux" data-bs-slide-to="1"
+                                    class="btn-enlarge" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselJeux" data-bs-slide-to="2"
+                                    class="btn-enlarge" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="images/jeux/dishonored/dishonored.jpg" class="d-block w-100 rounded"
+                                        alt="Image Dishonored">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Dishonored</h5>
+                                        <p class="contour">Image trouvée sur <a
+                                                href="https://www.gog.com/fr/game/dishonored_complete_collection">GOG</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="images/jeux/prey/prey_logo.jpg" class="d-block w-100 rounded"
+                                        alt="Image Prey">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Prey</h5>
+                                        <p class="contour">Image trouvée sur <a
+                                                href="https://store.steampowered.com/app/480490/Prey/?l=french">Steam</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="images/jeux/deathloop/deathloop.png" class="d-block w-100 rounded "
+                                        alt="Image Deathloop">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>DeathLoop</h5>
+                                        <p class="contour">Image trouvée sur <a
+                                                href="https://store.epicgames.com/fr/p/deathloop">Epic games</a></p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev " type="button" data-bs-target="#carouselJeux"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselJeux"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <h3 data-aos="zoom-in" data-aos-duration="3000">Relations sur le marché</h3>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="2000">
+                            <img src="images/bethesda/bethesda.png" alt="Image Bethesda" class="d-block w-100 rounded">
+                            <p>Source: Wikipédia</p>
+                        </div>
+                        <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="2000">
+                            <p class="text-left d-md-block main-text">
+                                Arkane Studios compte parmi ses principaux clients non seulement les joueurs passionnés,
+                                mais également des
+                                entreprises en quête de leur expertise, à l'exemple de Bethesda, avec laquelle ils ont
+                                collaboré sur le
+                                développement du jeu Dishonored. Concernant les usagers, ils s'adressent principalement
+                                aux joueurs, qu'ils soient novices ou expérimentés.
+                                L'entreprise recourt à une variété de logiciels et méthodes au sein de leur processus de
+                                développement, tels
+                                que le C/C++, Maya, Python, MotionBuilder, Blender et Unreal Engine.<br>
+
+                        </div>
+                        <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="2000">
+                            <p class="text-justify p-3">
+                                Du fait de sa renommée sur le marché du jeu vidéo, Arkane Studios fait face à une
+                                concurrence issue de<br>
+                                l'ensemble des entreprises opérant dans ce secteur. Par ailleurs, en cas de besoin,
+                                l'entreprise peut<br>
+                                également collaborer avec d'autres entreprises pour bénéficier d'une assistance
+                                supplémentaire dans la<br>
+                                réalisation de ses projets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="images/jeux/dishonored/dishonored.jpg" class="d-block w-100 rounded" alt="Image Dishonored">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Dishonored</h5>
-                        <p class="contour">Image trouvée sur <a href="https://www.gog.com/fr/game/dishonored_complete_collection">GOG</a></p>
-                      </div>
-                    
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/jeux/prey/prey_logo.jpg" class="d-block w-100 rounded" alt="Image Prey">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Prey</h5>
-                        <p class="contour">Image trouvée sur <a href="https://store.steampowered.com/app/480490/Prey/?l=french">Steam</a></p>
-                      </div>
-                    
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/jeux/deathloop/deathloop.png" class="d-block w-100 rounded " alt="Image Deathloop">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>DeathLoop</h5>
-                        <p class="contour">Image trouvée sur <a href="https://store.epicgames.com/fr/p/deathloop">Epic games</a></p>
-                      </div>
-                    
-                </div>
-                
-            </div>
-            <button class="carousel-control-prev " type="button" data-bs-target="#carouselJeux"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-    
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselJeux"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            
-            
         </div>
-        </div>
-        </div>
-
-
-          <!------------------------------------------------------------------------------------------------------------------------>
-          
-          <br>
-          <br>
-          <br>
-        <h3>Relations sur le marché</h3>
-        <div class="container-fluid">
-            <div class="row">
-        <div class="col-md-6 mb-4" data-aos="fade-left">
-            <img src="images/bethesda/bethesda.png" width="600" height="300" alt="Image Bethesda">
-            <p>Source: Wikipédia</p>
-        </div>
-        <div class="col-md-6 mb-4" data-aos="fade-right">
-            <p class="text-left d-md-block main-text">
-                Arkane Studios compte parmi ses principaux clients non seulement les joueurs passionnés, mais également des
-                entreprises en quête de leur expertise, à l'exemple de Bethesda, avec laquelle ils ont collaboré sur le
-                développement du jeu Dishonored. Concernant les usagers, ils s'adressent principalement aux joueurs, qu'ils soient novices ou expérimentés.
-                L'entreprise recourt à une variété de logiciels et méthodes au sein de leur processus de développement, tels
-                que le C/C++, Maya, Python, MotionBuilder, Blender et Unreal Engine.<br>
-        
-    </div>
-        
-        <p class="text-justify p-3">
-            Du fait de sa renommée sur le marché du jeu vidéo, Arkane Studios fait face à une concurrence issue de<br>
-            l'ensemble des entreprises opérant dans ce secteur. Par ailleurs, en cas de besoin, l'entreprise peut<br>
-            également collaborer avec d'autres entreprises pour bénéficier d'une assistance supplémentaire dans la<br>
-            réalisation de ses projets.
-        </p>
-    </div>
     </div>
     </div>
 
-    
-<div class="btnScrollToTop" data-scroll="up" type="button">
-    <img src="images/top/arrow.png" alt="Scroll to top" width="40" height="40"/>
-  </div>
+
+    <div class="btnScrollToTop" data-scroll="up" type="button">
+        <img src="images/top/arrow.png" alt="Scroll to top" width="40" height="40">
+    </div>
 
     <footer class="bg-dark text-center text-white ">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
