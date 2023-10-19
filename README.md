@@ -28,42 +28,42 @@ En ce qui concerne le design et la conception du site, nous nous sommes grandeme
 
 ## Page d'accueil
 
-Auteur : ------  
+Auteur : Tout le monde  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page1
 
-Auteur : ------  
+Auteur : Quentin Belhadj  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page2
 
-Auteur : ------  
+Auteur : Valentin Beliard  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page3
 
-Auteur : ------  
+Auteur : Mehdi Ben Smail  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page4
 
-Auteur : ------  
+Auteur : Maïken D'Angelo  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page5
 
-Auteur : ------  
+Auteur : Elena Bernard  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
