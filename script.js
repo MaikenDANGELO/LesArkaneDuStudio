@@ -1,3 +1,4 @@
+
 const enlargeButtons = document.querySelectorAll('.btn-enlargee');
 
 enlargeButtons.forEach((button) => {
@@ -62,31 +63,4 @@ card.addEventListener('mouseleave', () => {
     card.style.transform = 'scale(1)';
 });
 
-// Quentin
-let mybutton = document.getElementById("myBtn");
-
-window.onscroll = function() {scrollFunction()};
-    
-function scrollFunction() {
-console.log(document.body.scrollTop + document.documentElement.scrollTop);
-console.log
-}
-
-function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
-  
-  function handleScroll() {
-    const scrollToTopButton = document.getElementById('scrollToTopButton');
-    if (window.scrollY > 100) { // Vous pouvez ajuster cette valeur en fonction de quand le bouton doit apparaître
-      scrollToTopButton.classList.add('show');
-    } else {
-      scrollToTopButton.classList.remove('show');
-    }
-  }
-  
-  window.addEventListener('scroll', handleScroll);
   
