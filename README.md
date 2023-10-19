@@ -38,7 +38,7 @@ Capture d'écran: ![]()
 Auteur : Quentin Belhadj  
 
 Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran [ici]()  
+Capture d'écran: ![]()  
 
 ## Page Activités
 
