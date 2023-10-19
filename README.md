@@ -56,7 +56,7 @@ Capture d'écran: ![]()
 
 ## Page Environnement de travail
 
-Auteur : Maïken D'Angelo  
+Autrice : Maïken D'Angelo  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fenvironnement.html)  
 Capture d'écran: ![](images/W3C/W3C_environnement.png)  
@@ -68,9 +68,9 @@ Autrice : Elena Bernard
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpointeconomique.html)  
 Capture d'écran: ![](images/W3C/W3C_pointEconomique.png)  
 
-## Crédits
+## Page Crédits
 
-Auteur : Tout le monde 
+Auteurs : Tout le monde 
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran: ![]()  
