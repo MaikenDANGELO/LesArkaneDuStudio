@@ -10,7 +10,7 @@
     <title>Arkane Studio</title>
 </head>
 
-<body data-bs-theme="dark">
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
         <div class="header">
             <link rel="stylesheet" href="style.css">
@@ -62,16 +62,60 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid container-margin">
+    <div class="container-fluid container-margin" >
         <h1>Services de l’entreprise </h1>
+        <div class="container-fluid row">
+        
+        <div class="container-fluid col-md-6">
         <h2>Produits et services</h2>
-        <p class="text-justify p-3">
+        <p class="text-justify p-3" data-bs-theme="dark">
             Arkane Studio est une entreprise de renom dans l'industrie du jeu vidéo, reconnue pour sa contribution à<br>
             l'univers vidéoludique.<br>
             Parmi les nombreuses créations de l'entreprise, on compte des titres qui ont acquis une popularité<br>
             significative,<br>
             tels que Dishonored 1 et 2, accompagnés de leurs packs de contenu additionnel, Prey, ainsi que Deathloop.<br>
-        </p>
+        </p >
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------------>
+        
+        
+        <div id="carouselMain" class="carousel slide container-margin col-md-6" data-bs-theme="light" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active btn-enlarge"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" class="btn-enlarge"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" class="btn-enlarge"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="images/jeux/dishonored/dishonored.jpg" class="d-block w-100 parallax-image"
+                        alt="Image Dishonored">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/jeux/prey/prey_logo.jpg" class="d-block w-100 parallax-image" alt="Dishonored 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/jeux/deathloop/deathloop.png" class="d-block w-100 parallax-image" alt="Arkane Studio Art">
+                </div>
+            </div>
+            <button class="carousel-control-prev btn-enlarge" type="button" data-bs-target="#carouselMain"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next btn-enlarge" type="button" data-bs-target="#carouselMain"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+
+
+          <!------------------------------------------------------------------------------------------------------------------------>
         <p class="text-justify p-3">
             Grâce à son vaste éventail de compétences, allant de la conception de jeux à la composition de musiques et<br>
             de bandes sonores, en passant par la conception graphique et bien d'autres domaines, Arkane Studio parvient<br>
