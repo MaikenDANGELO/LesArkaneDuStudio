@@ -28,45 +28,45 @@ En ce qui concerne le design et la conception du site, nous nous sommes grandeme
 
 ## Page d'accueil
 
-Auteur : ------  
+Auteur : Tout le monde  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page1
 
-Auteur : ------  
+Auteur : Quentin Belhadj  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page2
 
-Auteur : ------  
+Auteur : Valentin Beliard  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page3
 
-Auteur : ------  
+Auteur : Mehdi Ben Smail  
 
 Vérification W3C : [Lien vers la vérification]()  
 Capture d'écran [ici]()  
 
 ## Page4
 
-Auteur : ------  
+Auteur : Maïken D'Angelo  
 
-Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran [ici]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fenvironnement.html)  
+Capture d'écran ![](images/W3C/W3C_environnement.png)  
 
-## Page5
+## Point economique
 
-Auteur : ------  
+Autrice : Elena Bernard  
 
-Vérification W3C : [Lien vers la vérification]()  
-Capture d'écran [ici]()  
+Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpointeconomique.html)  
+Capture d'écran ![](images/W3C/W3C_pointEconomique.png)  
 
 ## Crédits
 
