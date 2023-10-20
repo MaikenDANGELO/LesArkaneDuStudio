@@ -66,7 +66,7 @@ Maïken D'Angelo
 
 #### Page d'accueil
 
-Auteur : Tout le monde  
+Auteurs : Tout le monde  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Findex.html)  
 Capture d'écran: ![](images/W3C/W3C_accueil.png)  
