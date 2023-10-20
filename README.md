@@ -54,6 +54,14 @@ Mehdi Ben Smail,
 Elena Bernard,
 Maïken D'Angelo
 
+### Rapport économique
+
+Quentin Belhadj,
+Valentin Béliard,
+Mehdi Ben Smail,
+Elena Bernard,
+Maïken D'Angelo
+
 ### Site web :
 
 #### Page d'accueil
