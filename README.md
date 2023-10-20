@@ -26,49 +26,79 @@ Ce site web est créé en HTML, CSS et Javascript dans le cadre de la SAE 05-06 
 
 En ce qui concerne le design et la conception du site, nous nous sommes grandement inspirés du site web officiel de Arkane Studios, disponible [ici](https://www.arkane-studios.com/fr).
 
-## Page d'accueil
+## Répartition du travail
+
+### Planning
+
+Quentin Belhadj
+Valentin Béliard
+#### Corrections
+Mehdi Ben Smail
+Elena Bernard
+Maïken D'Angelo 
+
+
+### Questionnaires
+
+Quentin Belhadj
+Valentin Béliard
+Mehdi Ben Smail
+Elena Bernard
+Maïken D'Angelo  
+
+### Recherches rapport économique
+
+Quentin Belhadj
+Valentin Béliard
+Mehdi Ben Smail
+Elena Bernard
+Maïken D'Angelo
+
+### Site web :
+
+#### Page d'accueil
 
 Auteur : Tout le monde  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Findex.html)  
 Capture d'écran: ![](images/W3C/W3C_accueil.png)  
 
-## Page Présentation
+#### Page Présentation
 
 Auteur : Quentin Belhadj  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpresentation.html)  
 Capture d'écran: ![](images/W3C/W3C_presentation.png)  
 
-## Page Activités
+#### Page Activités
 
 Auteur : Valentin Beliard  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fservices.html)  
 Capture d'écran: ![](images/W3C/W3C_services.png)  
 
-## Page Organisation
+#### Page Organisation
 
 Auteur : Mehdi Ben Smail  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Forganisation.html)  
 Capture d'écran: ![](images/W3C/W3C_organisation.png)  
 
-## Page Environnement de travail
+#### Page Environnement de travail
 
 Autrice : Maïken D'Angelo  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fenvironnement.html)  
 Capture d'écran: ![](images/W3C/W3C_environnement.png)  
 
-## Page Point économique
+#### Page Point économique
 
 Autrice : Elena Bernard  
 
 Vérification W3C : [Lien vers la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmaikendangelo.github.io%2FLesArkaneDuStudio%2Fpointeconomique.html)  
 Capture d'écran: ![](images/W3C/W3C_pointEconomique.png)  
 
-## Page Crédits
+#### Page Crédits
 
 Auteurs : Tout le monde 
 
