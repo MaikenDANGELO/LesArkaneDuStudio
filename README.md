@@ -30,28 +30,28 @@ En ce qui concerne le design et la conception du site, nous nous sommes grandeme
 
 ### Planning
 
-Quentin Belhadj
+Quentin Belhadj,
 Valentin Béliard
 #### Corrections
-Mehdi Ben Smail
-Elena Bernard
+Mehdi Ben Smail,
+Elena Bernard,
 Maïken D'Angelo 
 
 
 ### Questionnaires
 
-Quentin Belhadj
-Valentin Béliard
-Mehdi Ben Smail
-Elena Bernard
+Quentin Belhadj,
+Valentin Béliard,
+Mehdi Ben Smail,
+Elena Bernard,
 Maïken D'Angelo  
 
 ### Recherches rapport économique
 
-Quentin Belhadj
-Valentin Béliard
-Mehdi Ben Smail
-Elena Bernard
+Quentin Belhadj,
+Valentin Béliard,
+Mehdi Ben Smail,
+Elena Bernard,
 Maïken D'Angelo
 
 ### Site web :
